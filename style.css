@@ -10,6 +10,11 @@ body {
     max-width: 390px;
 }
 
+#form_limit {
+    display: none;
+    text-align: center;
+}
+
 .item {
     text-align: center;
 }

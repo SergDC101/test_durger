@@ -19,13 +19,33 @@
                 <button class="btn" id="test_lk">Личный кабинет</button>
             </div>
         </div>
-        <form id="form_limit">
-            <div class="item">
-                <label for="html">Хочу изучать HTML</label>
-                <input id="html" type="checkbox">
+        <form id="form_limit" method="post">
+            <div class="checkbox_block">
+                <label for="test_fio">ФИО</label>
+                <input id="test_fio" name="test_fio" value="1" type="checkbox">
+            </div>
+
+            <div class="checkbox_block">
+                <label for="test_last_name">Фамилия</label>
+                <input id="test_last_name" name="test_last_name" value="1" type="checkbox">
+            </div>
+
+            <div class="checkbox_block">
+                <label for="test_first_name">Имя</label>
+                <input id="test_first_name" name="test_first_name" value="1" type="checkbox">
+            </div>
+
+            <div class="checkbox_block">
+                <label for="test_father_name">Отчество</label>
+                <input id="test_father_name" name="test_father_name" value="1" type="checkbox">
+            </div>
+
+            <div class="checkbox_block">
+                <label for="test_birthday">Дата рождения</label>
+                <input id="test_birthday" name="test_birthday" value="1" type="checkbox">
             </div>
             <div class="item">
-                <button id="order">Запуск</button>
+                <button id="test_setup">Запуск</button>
             </div> 
             
             

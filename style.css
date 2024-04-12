@@ -19,6 +19,16 @@ body {
     text-align: center;
 }
 
+.checkbox_block{
+
+    font-weight: 700;
+    text-align: right;
+
+}
+
+.checkbox_block for {
+    text-align: left;
+}
 .btn {
     margin-top: 10px;
     display: inline-block;

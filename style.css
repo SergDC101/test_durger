@@ -10,7 +10,17 @@ body {
     max-width: 390px;
 }
 
-#form_limit {
+#btn_block_limits {
+    display: none;
+    text-align: center;
+}
+
+#btn_block_anketa {
+    display: none;
+    text-align: center;
+}
+
+#btn_block_lk {
     display: none;
     text-align: center;
 }
@@ -19,16 +29,6 @@ body {
     text-align: center;
 }
 
-.checkbox_block{
-
-    font-weight: 700;
-    text-align: right;
-
-}
-
-.checkbox_block for {
-    text-align: left;
-}
 .btn {
     margin-top: 10px;
     display: inline-block;

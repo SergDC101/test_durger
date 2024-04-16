@@ -41,7 +41,22 @@ btn_back.addEventListener("click", function(){
 });
 
 
+let btn_limits_ui = document.getElementById("test_limits_ui");
+let btn_limits_api = document.getElementById("test_limits_api");
 
+let btn_anketa_ui = document.getElementById("test_anketa_ui");
+let btn_anketa_api = document.getElementById("test_anketa_api");
+
+let btn_lk_ui = document.getElementById("test_lk_ui");
+let btn_lk_api = document.getElementById("test_lk_api");
+
+
+btn_limits_ui.addEventListener("click", function(){
+    Telegram.WebApp.onEvent("mainButtonClicked", function(){
+        tg.sendData("Hello!");
+    });
+
+});
 
 
 Telegram.WebApp.onEvent("mainButtonClicked", function(){

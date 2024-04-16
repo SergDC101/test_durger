@@ -52,7 +52,27 @@ let btn_lk_api = document.getElementById("test_lk_api");
 
 
 btn_limits_ui.addEventListener("click", function(){
+    tg.sendData("test_limits_ui");
+});
+
+btn_limits_api.addEventListener("click", function(){
     tg.sendData("test_limits_api");
+});
+
+btn_anketa_ui.addEventListener("click", function(){
+    tg.sendData("test_anketa_ui");
+});
+
+btn_anketa_api.addEventListener("click", function(){
+    tg.sendData("test_anketa_api");
+});
+
+btn_lk_ui.addEventListener("click", function(){
+    tg.sendData("test_lk_ui");
+});
+
+btn_lk_api.addEventListener("click", function(){
+    tg.sendData("test_lk_api");
 });
 
 

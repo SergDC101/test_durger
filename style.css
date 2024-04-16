@@ -29,6 +29,18 @@ body {
     text-align: center;
 }
 
+#main_menu{
+    background: rgb(154, 197, 23);
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    height: 45px;
+    font-size: 14px;
+    display: none;
+}
+
+
+
 .btn {
     margin-top: 10px;
     display: inline-block;
@@ -44,6 +56,9 @@ body {
     font-weight: 700;
     transition: background .2s linear;
 }
+
+
+
 
 .btn:hover {
     background: lightgreen;

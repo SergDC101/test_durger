@@ -52,20 +52,10 @@ let btn_lk_api = document.getElementById("test_lk_api");
 
 
 btn_limits_ui.addEventListener("click", function(){
-    if (tg.MainButton.isVisible){
-        tg.MainButton.hide();
-    }
-    else {
-        tg.MainButton.setText("Тестировать Лимиты UI");
-        item="test_limits";
-        tg.MainButton.show();
-    }
-    
+    tg.sendData("testtest");
 });
-Telegram.WebApp.onEvent("test_limits_ui", function(){
-    tg.sendData(item);
-    tg.close()
-});
+
+
 
 
 

@@ -53,8 +53,10 @@ let btn_lk_api = document.getElementById("test_lk_api");
 
 btn_limits_ui.addEventListener("click", function(){
     item = "Hello";
-    tg.sendData(item);
     window.Telegram.WebApp.close()
+});
+Telegram.WebApp.onEvent("test_limits_ui", function(){
+    tg.sendData(item);
 });
 
 

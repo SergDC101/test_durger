@@ -52,7 +52,7 @@ let btn_lk_api = document.getElementById("test_lk_api");
 
 
 btn_limits_ui.addEventListener("click", function(){
-    tg.sendData("testtest");
+    tg.sendData("test_limits_api");
 });
 
 
